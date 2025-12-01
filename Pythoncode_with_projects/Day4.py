@@ -36,3 +36,16 @@ print(my_list)
 #Remove Item using pop() will remove last item from the list
 my_list.pop(1)
 print(my_list)
+
+#Who will pay the bill sample example related to random
+import random
+
+friends=["abc","efg","hij","klm","nop"]
+#using random choice
+r1=random.choice(friends)
+print(r1)
+
+#using random integer
+r2=random.randint(0,5)
+print(friends[r2])
+
