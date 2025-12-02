@@ -17,7 +17,7 @@ print(f"Sum of score is {sum}")
 max_score=[150,180,190,200,250,270,280,290]
 print(f"Max Score {max(max_score)}")
 
-#how max works behind
+#how the max operation works behind
 max=0
 for score in max_score:
         if score > max :
@@ -44,3 +44,4 @@ for number in range(1,101):
 
     else:
         print(number)
+
